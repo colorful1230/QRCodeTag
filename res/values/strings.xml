@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">二维码标签</string>
+
+    <string name="scan_button">扫描二维码</string>
+	<string name="generate_button">生成二维码</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_exit">退出</string>
+    
+	<string name="main_scan">扫一扫</string>
+	<string name="main_add_model">添加情景模式</string>
+	<string name="main_input">请输入名称</string>
+	<string name="main_delete">确认删除?</string>
+	<string name="main_max">最多能设定4个模式</string>
+	
+	<string name="main_menu_edit">重命名</string>
+	<string name="main_menu_delete">删除</string>
+	
+	<string name="capture_wrong">二维码格式不正确</string>
+	
+	<string name="msg_default_status">将二维码放入框中扫描</string>
+	<string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+	<string name="msg_camera_framework_bug">相机无法使用</string>
+	<string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+	
+	
+	<string name="contents_text">Plain text</string>
+	
+	<string name="setting_set_model">设置情景模式</string>
+	<string name="setting_wifi">WIFI</string>
+	<string name="setting_mobile_data">移动数据</string>
+	<string name="setting_bluetooth">蓝牙</string>
+	<string name="setting_synchro">同步</string>
+	<string name="setting_mute">静音</string>
+	<string name="setting_vibrate">震动</string>
+	<string name="setting_flight_mode">飞行模式</string>
+	<string name="setting_gps">GPS</string>
+	<string name="setting_touch">触摸震动</string>
+	<string name="setting_generate">保存并生成二维码</string>
+	<string name="setting_title_button">生成</string>
+	
+	<string name="model_initial">初始模式</string>
+	<string name="model_sleep">睡眠模式</string>
+	
+	<string name="encode_save_button">保存</string>
+	
+	<string name="back_button">返回</string>
+	<string name="title_qrcode">二维码</string>
+	<string name="ok">确定</string>
+	<string name="cancal">取消</string>
+	<string name="about">二维码标签</string>
+	<string name="version">1.0.0.0002</string>
+</resources>

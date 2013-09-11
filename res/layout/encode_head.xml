@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:paddingLeft="2dip"
+   	android:paddingRight="2dip"
+   	android:gravity="center_vertical"
+    android:background="@drawable/title_bg" >
+    
+    <Button
+        android:id="@+id/encode_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_button"
+		android:layout_gravity="center_vertical"
+		android:layout_marginLeft="10dp"
+        android:text="@string/back_button" />
+
+    <Button
+        android:id="@+id/encode_save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/encode_back_button"
+        android:layout_alignBottom="@+id/encode_back_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/title_button"
+        android:text="@string/encode_save_button" />
+
+    <TextView
+        android:id="@+id/encode_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/encode_save_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_qrcode"
+        android:textColor="@color/title_text_color"
+        android:textSize="@dimen/title_text_size" />
+    
+</RelativeLayout>
